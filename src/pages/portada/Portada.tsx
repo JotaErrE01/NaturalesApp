@@ -1,4 +1,5 @@
 import { Player } from '@lottiefiles/react-lottie-player';
+import { Link, NavLink } from 'react-router-dom';
 
 export const Portada = () => {
   return (
@@ -11,14 +12,12 @@ export const Portada = () => {
         <h1
           className='text-5xl md:text-6xl xl:text-8xl text-orange-500 md:absolute z-10 ml-10 xl:ml-16 mt-0 top-60 xl:top-20 font-bold xl:mt-auto'
         >Ciencias <span className='block ml-20 xl:ml-28 mt-5 xl:mt-10'>Naturales</span>
-          <button
+          <Link
             className="text-2xl md:text-4xl text-orange-600 font-bold border-orange-600 border-solid border-2 rounded-full px-10 py-4 hover:bg-orange-600 hover:text-white transition-colors duration-300 ease-in-out z-10 lg:ml-52 lg:mt-12 xl:static fixed md:bottom-[370px] left-[0%] right-[0%] m-0 bottom-[180px] w-[15rem] md:w-[18rem] mx-auto"
-            onClick={() => {
-              // navigate('/inicio');
-            }}
+            to='app'
           >
             <i className="fas fa-arrow-circle-right mr-5"></i>
-            Iniciar</button>
+            Iniciar</Link>
         </h1>
 
         <Player
