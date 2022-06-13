@@ -1,61 +1,8 @@
-import { Collapse, List, ListItemButton, ListItemIcon, ListItemText, ListSubheader } from "@mui/material";
+import { Collapse, List, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import { Fragment, useState } from "react";
 import { Player } from '@lottiefiles/react-lottie-player';
 import { TemasUnidades } from "../common";
-import { IListLinks } from "../../interfaces";
-
-const ListLinks: IListLinks[] = [
-  {
-    text: 'Videos',
-    icon: 'fas fa-play',
-    id: 'videos',
-    temas: ['Video 1', 'Video 2']
-  },
-  {
-    icon: "fas fa-dice",
-    text: "Actividades",
-    id: "actividades",
-    temas: ['Video 1', 'Video 2']
-  },
-  {
-    icon: "fas fa-trophy",
-    text: "Agradecimientos",
-    id: "agradecimientos",
-  },
-]
-
-const DataTemasUnidades = [
-  {
-    text: 'Niveles de organización en los seres vivos',
-    icon: 'fas fa-1',
-    temas: ['Tema 1', 'Tema 2']
-  },
-  {
-    text: 'Cambios en los seres vivos',
-    icon: 'fas fa-2',
-    temas: ['Tema 1', 'Tema 2']
-  },
-  {
-    text: 'La fuerza de la gravedad',
-    icon: 'fas fa-3',
-    temas: ['Tema 1', 'Tema 2']
-  },
-  {
-    text: 'Nuestro Universo',
-    icon: 'fas fa-4',
-    temas: ['Tema 1', 'Tema 2']
-  },
-  {
-    text: 'Acción del ser humano sobre la naturaleza',
-    icon: 'fas fa-5',
-    temas: ['Tema 1', 'Tema 2']
-  },
-  {
-    text: 'Nuestro Planeta',
-    icon: 'fas fa-6',
-    temas: ['Tema 1', 'Tema 2']
-  },
-]
+import { DataTemasUnidades, ListLinks } from "../../data";
 
 export const Sidebar = () => {
   const [subLinksVisible, setsubLinksVisible] = useState({
@@ -121,15 +68,15 @@ export const Sidebar = () => {
                   id !== 'agradecimientos' &&
                   <Collapse in={subLinksVisible[id]} timeout="auto" unmountOnExit>
                     {
-                      temas!.map((tema) => (
-                        <List component="div" disablePadding>
+                      temas!.map(({ text, src, icon }) => (
+                        <List key={src} component="div" disablePadding>
                           <ListItemButton
                             sx={{ pl: 4 }}
                           >
-                            {/* <ListItemIcon>
+                            <ListItemIcon>
                               <i className={`${icon} text-4xl ml-[30%] text-white`}></i>
-                            </ListItemIcon> */}
-                            <ListItemText primary={tema} />
+                            </ListItemIcon>
+                            <ListItemText primary={text} />
                           </ListItemButton>
                         </List>
                       ))
@@ -140,17 +87,6 @@ export const Sidebar = () => {
             )
           })
         }
-
-        {/* <ListItemButton
-          onClick={() => setsubLinksVisible({ ...subLinksVisible, [text.toLowerCase()]: !subLinksVisible[id] })}
-          sx={{ paddingTop: 2, paddingBottom: 2, marginTop: '2rem' }}
-        >
-          <ListItemIcon>
-            <i className={`${icon} text-4xl ml-[30%] text-white`}></i>
-          </ListItemIcon>
-          <ListItemText id="listItem" primary={text} />
-          {subLinksVisible[id] ? <i className="fas fa-angle-up mr-5" /> : <i className="fas fa-angle-down mr-5" />}
-        </ListItemButton> */}
       </List>
     </div>
   )

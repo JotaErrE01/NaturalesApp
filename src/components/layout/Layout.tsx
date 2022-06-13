@@ -1,3 +1,4 @@
+import { Routes, Route, Outlet } from 'react-router-dom';
 import { Sidebar } from './';
 
 export const Layout = () => {
@@ -6,7 +7,9 @@ export const Layout = () => {
       className='flex'
     >
       <Sidebar />
-      <h1>UNIDAD 1</h1>
+
+      {/* CONTENIDOS (UNIDADES, VIDEOS, ACTIVIDADES) */}
+      <Outlet />
     </div>
   )
 };

@@ -1,2 +1,2 @@
 export * from './portada';
-// export * from './inicio';
+export * as Unidades from './unidades';

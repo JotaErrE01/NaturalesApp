@@ -1,5 +1,6 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Layout } from "../components";
+import { rutasUnidades } from "../data";
 import { Portada } from "../pages";
 
 export const AppRouter = () => {
@@ -7,7 +8,15 @@ export const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Portada />} />
-        <Route path="/app" element={<Layout />} />
+        <Route path="/app/*" element={<Layout />}>
+          {
+            rutasUnidades.map(({ Component, path }) => (
+              <Route path={path} element={<Component />} />
+            ))
+          }
+          <Route path="*" element={<Navigate to={rutasUnidades[0].path} replace />} />
+        </Route>
+        <Route path="*" element={<Navigate to={'/'} replace />} />
       </Routes>
     </BrowserRouter>
   )

@@ -1,13 +1,15 @@
 import { List, ListItemButton, ListItemIcon, ListItemText, Collapse } from '@mui/material';
 import { FC, Fragment, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 interface Props {
   text: any;
-  temas: string[];
+  temas: { path: string, text: string }[];
   icon: string;
 }
 
 export const TemasUnidades: FC<Props> = ({ text, temas, icon }) => {
+  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
 
   return (
@@ -26,12 +28,12 @@ export const TemasUnidades: FC<Props> = ({ text, temas, icon }) => {
       </List>
       <Collapse in={open} timeout="auto" unmountOnExit>
         {
-          temas.map((tema, i) => (
+          temas.map(({ path, text }, i) => (
             <List component="div" disablePadding key={i}>
-              <ListItemButton sx={{ pl: 4 }}>
+              <ListItemButton sx={{ pl: 4 }} onClick={() => navigate(`${path}`)} >
                 <ListItemIcon>
                 </ListItemIcon>
-                <ListItemText primary={tema} />
+                <ListItemText primary={text} />
               </ListItemButton>
             </List>
           ))
