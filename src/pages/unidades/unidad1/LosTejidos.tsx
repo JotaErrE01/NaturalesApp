@@ -5,7 +5,6 @@ export const LosTejidos = () => {
       <h1 className="mt-12 text-3xl lg:text-5xl text-center text-violet-500 font-bold">Los Tejidos</h1>
 
       <div className="w-[95%] mx-auto">
-
         <div
           className="flex flex-col"
         >
