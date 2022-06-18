@@ -11,7 +11,7 @@ export const AppRouter = () => {
         <Route path="/app/*" element={<Layout />}>
           {
             rutasUnidades.map(({ Component, path }) => (
-              <Route path={path} element={<Component />} />
+              <Route key={path} path={path} element={<Component />} />
             ))
           }
           <Route path="*" element={<Navigate to={rutasUnidades[0].path} replace />} />

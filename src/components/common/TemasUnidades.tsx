@@ -20,7 +20,7 @@ export const TemasUnidades: FC<Props> = ({ text, temas, icon }) => {
           sx={{ pl: 4 }}
         >
           <ListItemIcon>
-            <i className={`${icon} text-4xl ml-[30%] text-white`}></i>
+            <i className={`${icon} lg:text-4xl ml-[30%] text-white`}></i>
           </ListItemIcon>
           <ListItemText primary={text} />
           {open ? <i className="fas fa-angle-up mr-5" /> : <i className="fas fa-angle-down mr-5" />}
