@@ -32,7 +32,7 @@ export const Cielo = () => {
         </p>
         <img
           className="lg:w-1/2 mx-auto mt-5 rounded"
-          src="/assets/lluviaMeteoros.png"
+          src="/lluviaMeteoros.png"
           alt="Lluvia de meteoros"
         />
       </div>

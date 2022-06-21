@@ -20,7 +20,7 @@ export const Bacterias = () => {
 
           <img
             className="lg:w-2/5 mx-auto w-4/5 lg:mt-0 mt-5"
-            src="/assets/bacteria.png"
+            src="/bacteria.png"
             alt="Estructura Bacteriana"
           />
         </div>
@@ -36,7 +36,7 @@ export const Bacterias = () => {
 
           <img 
             className="mt-2 mb-5"
-            src="/assets/clasificacionBacterias.png" 
+            src="/clasificacionBacterias.png" 
             alt="Clasificación de las bacterias segun su forma" 
           />
         </div>

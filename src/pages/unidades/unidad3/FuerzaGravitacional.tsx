@@ -17,7 +17,7 @@ export const FuerzaGravitacional = () => {
 
         <img
           className="lg:w-1/2 mx-auto mt-5 w-4/5 rounded-lg"
-          src="/assets/fuerzaGravitacional.png"
+          src="/fuerzaGravitacional.png"
           alt="Fuerza Gravitacional"
         />
         

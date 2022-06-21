@@ -16,13 +16,13 @@ export const Portada = () => {
           <div className='flex justify-between pr-5 md:w-[400px] md:mt-10 xl:mt-0 lg:w-1/2 lg:pr-0 lg:mb-16'>
             <img
               className='w-2/5 lg:w-[30%]'
-              src="/assets/ug.png"
+              src="/ug.png"
               alt="Universidad de Guayaquil"
             />
 
             <img
               className='w-2/5 lg:w-[30%]'
-              src="/assets/logo.png"
+              src="/logo.png"
               alt="Universidad de Guayaquil"
             />
           </div>

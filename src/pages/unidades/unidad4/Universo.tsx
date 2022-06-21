@@ -35,7 +35,7 @@ export const Universo = () => {
 
         <img
           className="w-4/5 lg:w-1/2 mx-auto mt-5 rounded"
-          src="/assets/evolucionEstelar.png"
+          src="/evolucionEstelar.png"
           alt="Evolucion Estelar" 
         />
       </div>

@@ -15,7 +15,7 @@ export const Carbono = () => {
 
         <img
           className="w-4/5 lg:w-1/2 mx-auto"
-          src="/assets/carbono.png"
+          src="/carbono.png"
           alt="Carbono"
         />
 
@@ -28,7 +28,7 @@ export const Carbono = () => {
 
         <img
           className="w-4/5 mx-auto"
-          src="/assets/alotroposCarbono.png"
+          src="/alotroposCarbono.png"
           alt="Alotropos del Carbono" 
         />
       </div>

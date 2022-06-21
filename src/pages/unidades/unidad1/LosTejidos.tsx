@@ -16,7 +16,7 @@ export const LosTejidos = () => {
 
           <img
             className="lg:w-1/2 mx-auto mt-5 w-4/5 rounded-lg"
-            src="/assets/organizacionBiologica.png"
+            src="/organizacionBiologica.png"
             alt="Niveles de Organización Bilógica"
           />
         </div>

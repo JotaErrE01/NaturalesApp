@@ -18,7 +18,7 @@ export const SistemaSolar = () => {
           <h2 className="font-semibold text-violet-500 text-2xl mt-5 mb-2">Cuerpos Pequeños del Sistema Solar</h2>
           <img
             className="mx-auto mt-5 rounded-lg lg:w-4/5"
-            src="/assets/sistemaSolar.png"
+            src="/sistemaSolar.png"
             alt="Sistema Solar" 
           />
         </div>

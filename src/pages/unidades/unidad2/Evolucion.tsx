@@ -51,7 +51,7 @@ export const Evolucion = () => {
 
           <img 
             className="lg:w-1/2 mx-auto mb-5"
-            src="/assets/tiposFosilizacion.png" 
+            src="/tiposFosilizacion.png" 
             alt="Tipos de Fosilizacion" 
           />
         </div>
