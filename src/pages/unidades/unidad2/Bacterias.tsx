@@ -6,7 +6,7 @@ export const Bacterias = () => {
 
       <div className="w-[95%] mx-auto">
         <div
-          className="flex flex-col lg:flex-row"
+          className="flex flex-col lg:flex-row gap-5"
         >
           <div>
             <p>
@@ -19,7 +19,7 @@ export const Bacterias = () => {
           </div>
 
           <img
-            className="lg:w-2/5 mx-auto w-4/5 lg:mt-0 mt-5"
+            className="lg:w-2/5 mx-auto w-4/5 lg:mt-0"
             src="/bacteria.png"
             alt="Estructura Bacteriana"
           />

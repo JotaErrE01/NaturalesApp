@@ -11,7 +11,7 @@ export const Sidebar = () => {
 
       <i
         onClick={() => setShowSidebar(!showSidebar)}
-        className="fas fa-bars text-orange-500 text-2xl ml-10 mt-10 absolute lg:hidden"
+        className="fas fa-bars text-orange-500 text-2xl ml-5 mt-5 absolute lg:hidden"
       ></i>
 
       <SidebarItems className="hidden lg:block" />

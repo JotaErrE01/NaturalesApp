@@ -5,7 +5,7 @@ export const Cielo = () => {
       <h1 className="mt-12 text-3xl lg:text-5xl text-center text-violet-500 font-bold">El Cielo</h1>
 
       <div className="w-[95%] mx-auto">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row gap-5">
           <div>
             <h2 className="mb-2 text-2xl text-violet-500 font-semibold">Estrellas fugaces</h2>
             <p>
