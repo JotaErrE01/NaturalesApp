@@ -3,6 +3,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 import { TemasUnidades } from '../common/TemasUnidades';
 import { DataTemasUnidades, ListLinks } from '../../data';
 import { Fragment, useState, FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 interface Props {
   className?: string;
@@ -15,10 +16,11 @@ export const SidebarItems: FC<Props> = ({ className }) => {
     actividades: false,
     agradecimientos: false
   });
+  const navigate = useNavigate();
 
   return (
     <List
-      sx={{ width: '100%', height: '100%' }}
+      sx={{ width: '100%', height: '100%', position: 'sticky', left: 0, top: 0 }}
       component="nav"
       className={`bg-emerald-500 min-h-screen overflow-y-auto lg:block max-w-[300px] lg:max-w-[420px] ${className}`}
       subheader={
@@ -75,11 +77,12 @@ export const SidebarItems: FC<Props> = ({ className }) => {
                       <List key={i} component="div" disablePadding>
                         <ListItemButton
                           sx={{ pl: 4 }}
+                          onClick={() => navigate(`${ id }?src=${ src }&title=${ text }`)}
                         >
                           <ListItemIcon>
                             <i className={`${icon} text-2xl lg:text-4xl ml-[30%] text-white`}></i>
                           </ListItemIcon>
-                          <ListItemText primary={text} />
+                          <ListItemText primary={text} className='ml-5' />
                         </ListItemButton>
                       </List>
                     ))

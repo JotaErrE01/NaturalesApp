@@ -1,4 +1,4 @@
-import { Unidades } from "../pages";
+import { Unidades, VideoComponent } from "../pages";
 
 export const rutasUnidades = [
   {
@@ -49,4 +49,8 @@ export const rutasUnidades = [
     path: 'biodiversidad',
     Component: Unidades.Biodiversidad,
   },
+  {
+    path: 'videos',
+    Component: VideoComponent,
+  }
 ];
