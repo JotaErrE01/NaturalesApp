@@ -1,7 +1,7 @@
 export interface IListLinks {
-  text: 'Videos' | 'Actividades' | 'Agradecimientos',
+  text: 'Videos' | 'Actividades' | 'Agradecimientos' | 'Preguntas',
   icon: string;
-  id: 'videos' | 'actividades' | 'agradecimientos';
+  id: 'videos' | 'actividades' | 'agradecimientos' | 'preguntas';
   temas?: ITema[];
 }
 

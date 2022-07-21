@@ -29,6 +29,43 @@ export const ListLinks: IListLinks[] = [
     ]
   },
   {
+    icon: 'fas fa-question',
+    id: 'preguntas',
+    text: 'Preguntas',
+    temas: [
+      {
+        text: 'Los Tejidos y Niveles Tróficos',
+        icon: 'fas fa-1',
+        src: 'https://www.educaplay.com/game/12545602-unidad_1.html'
+      },
+      {
+        text: 'Cambios en los Seres Vivos',
+        icon: 'fas fa-2',
+        src: 'https://www.educaplay.com/game/12609522-ciencias_naturales.html'
+      },
+      {
+        text: 'La Fuerza de la Gravedad',
+        icon: 'fas fa-3',
+        src: 'https://www.educaplay.com/game/12609967-ciencias_naturales.html'
+      },
+      {
+        text: 'Nuestro Universo',
+        icon: 'fas fa-4',
+        src: 'https://www.educaplay.com/game/12610257-unidad_4.html'
+      },
+      {
+        text: 'Acción del Ser Humano Sobre la Naturaleza',
+        icon: 'fas fa-5',
+        src: 'https://www.educaplay.com/game/12610542-unidad_5.html'
+      },
+      {
+        text: 'Nuestro Planeta',
+        icon: 'fas fa-6',
+        src: 'https://www.educaplay.com/game/12610807-unidad_6.html'
+      },
+    ]
+  },
+  {
     icon: "fas fa-dice",
     text: "Actividades",
     id: "actividades",

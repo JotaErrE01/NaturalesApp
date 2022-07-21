@@ -14,7 +14,8 @@ export const SidebarItems: FC<Props> = ({ className }) => {
     unidades: false,
     videos: false,
     actividades: false,
-    agradecimientos: false
+    agradecimientos: false,
+    preguntas: false,
   });
   const navigate = useNavigate();
 

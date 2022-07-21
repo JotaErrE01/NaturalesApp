@@ -52,5 +52,9 @@ export const rutasUnidades = [
   {
     path: 'videos',
     Component: VideoComponent,
+  },
+  {
+    path: 'preguntas',
+    Component: VideoComponent,
   }
 ];
