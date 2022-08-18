@@ -71,9 +71,35 @@ export const ListLinks: IListLinks[] = [
     id: "actividades",
     temas: [
       {
-        text: 'Video 1',
-        src: 'sdfsd',
-      }
+        text: 'Unidad 1: Crucigrama de palabras',
+        icon: 'fas fa-1',
+        src: 'https://www.educaplay.com/game/12651793-unidad_1.html'
+      },
+      {
+        text: 'Unidad 2: Decifra las palabras',
+        icon: 'fas fa-2',
+        src: 'https://www.educaplay.com/game/12652203-unidad_2.html'
+      },
+      {
+        text: 'Unidad 3: Sopa de letras',
+        icon: 'fas fa-3',
+        src: 'https://www.educaplay.com/game/12652411-unidad_3.html'
+      },
+      {
+        text: 'Unidad 4: Juego de memoria',
+        icon: 'fas fa-4',
+        src: 'https://www.educaplay.com/game/12652654-unidad_4.html'
+      },
+      {
+        text: 'Unidad 5: Decifra las palabras',
+        icon: 'fas fa-5',
+        src: 'https://www.educaplay.com/game/12653465-unidad_5.html'
+      },
+      {
+        text: 'Unidad 6: Froggy Saltarín',
+        icon: 'fas fa-6',
+        src: 'https://www.educaplay.com/game/12653258-unidad_5.html'
+      },
     ]
   },
   {

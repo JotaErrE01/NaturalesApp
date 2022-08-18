@@ -14,7 +14,7 @@ export const Sidebar = () => {
         className="fas fa-bars text-orange-500 text-2xl ml-5 mt-5 absolute lg:hidden"
       ></i>
 
-      <SidebarItems className="hidden lg:block max-h-screen overflow-scroll" />
+      <SidebarItems className="hidden lg:block max-h-screen overflow-y-auto" />
 
       <Drawer
         open={showSidebar}

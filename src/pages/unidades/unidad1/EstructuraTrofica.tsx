@@ -17,9 +17,7 @@ export const EstructuraTrofica = () => {
 
           <div>
             <p>
-              Los organismos que habitan en los ecosistemas establecen relaciones alimentarias o tróficas que hacen posible el flujo de materia y energía. Por ejemplo, carnívoros como la serpiente pueden comer herbívoros como los conejos, y estos, a su vez, alimentarse de zanahorias y plantas que hacen fotosíntesis. Así, cada uno de estos organismos ocupa un nivel trófico determinado, es decir, cada uno tiene un nicho alimentario específico.
-              Los niveles tróficos son:
-              Primer nivel trófico productores. Segundo nivel trófico consumidores primarios. Tercer nivel trófico consumidores secundarios. Cuarto nivel trófico consumidores terciarios.
+              Los organismos que habitan en los ecosistemas establecen relaciones alimentarias o tróficas que hacen posible el flujo de materia y energía. Por ejemplo, carnívoros como la serpiente pueden comer herbívoros como los conejos, y estos, a su vez, alimentarse de zanahorias y plantas que hacen fotosíntesis.
             </p>
 
             <p className="mt-5">El nivel trófico de un organismo es la posición que ocupa en la cadena alimenticia.</p>
@@ -31,12 +29,6 @@ export const EstructuraTrofica = () => {
             </ul>
           </div>
         </div>
-        <p className="mt-5">
-          En cada eslabón de los niveles tróficos se transfiere biomasa y por lo tanto energía.
-          La forma como cada nivel trófico aprovecha esa energía es la eficiencia ecológica.
-          La eficiencia ecológica del ecosistema será mayor mientras menor sea la pérdida de energía. Hay mayor productividad en ecosistemas como los arrecifes de coral, los estuarios y los bosques tropicales, y es más escasa en los desiertos áridos y en alta mar.
-          En cada paso de una cadena alimentaria se pierde energía en forma de calor. Los seres autótrofos utilizan una parte de la energía que producen para transformarla en alimentos y otra parte para cumplir sus procesos vitales. Además, otra parte se pierde en forma de calor cuando se transfiere al siguiente nivel trófico, de igual manera los consumidores utilizan una parte de la energía que reciben para sus procesos vitales, transfieren otra parte y pierden otra en forma de calor.
-        </p>
       </div>
     </div>
   )

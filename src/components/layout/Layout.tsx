@@ -8,7 +8,6 @@ export const Layout = () => {
     >
       <Sidebar />
 
-      {/* CONTENIDOS (UNIDADES, VIDEOS, ACTIVIDADES) */}
       <Outlet />
     </div>
   )

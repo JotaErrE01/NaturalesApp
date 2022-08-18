@@ -19,7 +19,7 @@ export const CambioClimatico = () => {
             alt="Cambio Climatico" />
         </div>
 
-        <h2 className="text-2xl text-violet-500 font-semibold mt-5">Los Combustibles Fósiles</h2>
+        {/* <h2 className="text-2xl text-violet-500 font-semibold mt-5">Los Combustibles Fósiles</h2>
         <p>
           El carbono que se encuentra en el carbón, el petróleo y el gas natural que estaba
           enterrado bajo tierra, aislado del ciclo del carbono, fue incorporado a este gracias a la acción de los seres humanos. Cuando usamos los combustibles fósiles estamos usando la energía solar que fue almacenada hace millones de años y, como consecuencia, estamos liberando el CO2 de entonces a nuestra atmósfera actual. Según pruebas científicas hechas a muestras prehistóricas de aire, se sabe que nuestra atmósfera actualmente tiene la cantidad más alta de CO2 registrada en los últimos 650 000 años, un 27 % más.
@@ -36,7 +36,7 @@ export const CambioClimatico = () => {
           <li className="mt-2 ml-2">Los procesos de tratamiento de aguas residuales</li>
           <li className="mt-2 ml-2">La explotación del carbón</li>
           <li className="mt-2 ml-2">El uso de combustibles fósil</li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   )
