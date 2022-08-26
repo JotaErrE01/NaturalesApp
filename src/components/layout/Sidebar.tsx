@@ -7,7 +7,7 @@ export const Sidebar = () => {
   
 
   return (
-    <div className="font-bold text-white">
+    <div className="font-bold text-white lg:min-w-[18.5rem]">
 
       <i
         onClick={() => setShowSidebar(!showSidebar)}
