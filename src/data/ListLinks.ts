@@ -7,6 +7,11 @@ export const ListLinks: IListLinks[] = [
     id: 'videos',
     temas: [
       {
+        text: 'Niveles de Organizacion de los Seres Vivos',
+        src: 'https://www.youtube.com/embed/6yQHiNrPJgI',
+        icon: 'fas fa-film',
+      },
+      {
         text: 'La Evolución',
         src: 'https://www.youtube.com/embed/Cz6VTtlQksE',
         icon: 'fas fa-film',
@@ -17,13 +22,18 @@ export const ListLinks: IListLinks[] = [
         icon: 'fas fa-film',
       },
       {
+        text: 'Historia del Universo',
+        src: 'https://www.youtube.com/embed/9vTC8co9YAA',
+        icon: 'fas fa-film',
+      },
+      {
         text: 'El Carbono',
         src: 'https://www.youtube.com/embed/XI7plCTNG74',
         icon: 'fas fa-film',
       },
       {
-        text: 'El Cambio Climático',
-        src: 'https://www.youtube.com/embed/weIBPwFuYwA',
+        text: 'El Planeta Tierra',
+        src: 'https://www.youtube.com/embed/JrVbatoXar0',
         icon: 'fas fa-film',
       }
     ]
@@ -71,19 +81,19 @@ export const ListLinks: IListLinks[] = [
     id: "actividades",
     temas: [
       {
-        text: 'Unidad 1: Crucigrama de palabras',
+        text: 'Unidad 1: Rompecabezas',
         icon: 'fas fa-1',
-        src: 'https://www.educaplay.com/game/12651793-unidad_1.html'
+        src: 'https://www.jigsawplanet.com?rc=play&pid=1201fda9224b&view=iframe'
       },
       {
-        text: 'Unidad 2: Decifra las palabras',
+        text: 'Unidad 2: Une con lineas',
         icon: 'fas fa-2',
-        src: 'https://www.educaplay.com/game/12652203-unidad_2.html'
+        src: 'https://www.educaplay.com/game/12878560-unidad_2.html'
       },
       {
-        text: 'Unidad 3: Sopa de letras',
+        text: 'Unidad 3: Mapa Test',
         icon: 'fas fa-3',
-        src: 'https://www.educaplay.com/game/12652411-unidad_3.html'
+        src: 'https://www.educaplay.com/game/12879158-unidad_3.html'
       },
       {
         text: 'Unidad 4: Juego de memoria',
