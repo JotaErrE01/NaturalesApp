@@ -4,7 +4,6 @@ import { SidebarItems } from './';
 
 export const Sidebar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
-  
 
   return (
     <div className="font-bold text-white lg:min-w-[18.5rem]">

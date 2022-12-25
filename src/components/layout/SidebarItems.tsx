@@ -60,7 +60,6 @@ export const SidebarItems: FC<Props> = ({ className }) => {
           return (
             <Fragment key={id}>
               <ListItemButton
-                // key={i}
                 onClick={() => setsubLinksVisible({ ...subLinksVisible, [text.toLowerCase()]: !subLinksVisible[id] })}
                 sx={{ paddingTop: 2, paddingBottom: 2, marginTop: '2rem' }}
               >

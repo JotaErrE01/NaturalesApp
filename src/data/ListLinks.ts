@@ -112,9 +112,4 @@ export const ListLinks: IListLinks[] = [
       },
     ]
   },
-  // {
-  //   icon: "fas fa-trophy",
-  //   text: "Agradecimientos",
-  //   id: "agradecimientos",
-  // },
 ];
